@@ -1,7 +1,120 @@
+<!DOCTYPE HTML5>
 <html>
-<head>
-</head
-<body>
-</body>
-
-</html>
+    <head>
+          <meta charset="UTF-8">
+        <title>CodePen - curriculum vitae</title>
+         <link rel="stylesheet" href="estilos.css" <!--hoja de estilo link-->
+         
+    </head>
+    <body>
+                <!--Intro-->
+         <div class="intro">
+                    <img src="https://www.gtiarmoredcars.com/wp-content/uploads/2021/02/62681-flat-icons-face-computer-design-avatar-icon.png" alt = "" height="100" width="100px" </img>
+             <div class="heading">Nicolas Van Meegroot </div>
+                    <div class="prof">Full Stack</div>
+                    <div class="summary">Soy developer Full Stack con conocimiento en HTML y CSS, estoy estudiando los lenguajes faltantes para ser Full Stack JR</div>
+                </div>
+                <!--Contact Information-->
+            <div id="columna1">
+                <div class="contactinfo">
+                    <div class="icon">
+                        <div class="fas fa-map-signs"></div>
+                    </div>
+                    <div class="data">
+                        Ituzaingo 41 5"E"
+                    </div>
+                    <div class="icon">
+                        <div class="fas fa-mobile-alt"></div>
+                    </div>
+                    <div class="data">
+                        Mi Numero: 0351-8179747
+                    </div>
+                    <div class="icon">
+                        <div class="fas fa-envelope"></div>
+                    </div>
+                    <div class="data">
+                        nicolas.van.meegrot@mi.unc.edu.ar
+                    </div>
+                </div>
+            </div>
+                <!--Skills Section-->
+            <div class="ability"><strong>Habilidades</strong></div>
+                <div class="skills">
+                    <ul>
+                        <li>
+                            <div class="skill_name">
+                                HTML5
+                            </div>
+                            <div class="skill_prog">
+                                <span style="width: 80%;"></span>
+                            </div>
+                            <div class="skill_per">80%</div>
+                        </li>
+                        <li>
+                            <div class="skill_name">
+                                Css
+                            </div>
+                            <div class="skill_prog">
+                                <span style="width: 70%;"></span>
+                            </div>
+                            <div class="skill_per">50%</div>
+                        </li>
+                        <li>
+                            <div class="skill_name">
+                                Javascript 
+                            </div>
+                            <div class="skill_prog">
+                                <span style="width: 90%;"></span>
+                            </div>
+                            <div class="skill_per">0%</div>
+                        </li>                    
+                    </ul>
+                </div>
+                <!--Experience/Education-->
+                <div class="subheading">Experencia</div>
+                <div class="explist">
+                    <ul>
+                        <li>
+                            <div class="date">datos trabajo 1</div> 
+                            <div class="jobinfo">
+                                <div class="jobtitle">titulo trabajo 1</div> 
+                            <div class ="jobdesc">descripcion trabajo 1</div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="date">datos trabajo 2</div> 
+                            <div class="jobinfo">
+                                <div class="jobtitle">titulo trabajo 2</div> 
+                            <div class ="jobdesc">descripcion trabajo 2</div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+         
+             <hr width="100%" align="left" size="3px">
+             <foother>
+                <!--Social-->
+             
+                <div class="subheading" >Redes sociales</div>
+                <div class="social">
+                    <a href="https://www.facebook.com/nicolas.pavib.3/" target="_blank">
+                        <div class = "icon">
+                            <div class="fab fa-facebook-square">Facebook</div>
+                        </div>
+                    </a>
+                     <a href="https://www.linkedin.com/in/nicolas-van-meegroot-2a0513229/" target="_blank">
+                         <div class="icon">
+                             <div class="fab fa-linkedin">LinkedIn</div>
+                        </div>
+                     </a>
+                    <a href="https://github.com/nicovanm" target="_blank">
+                        <div class = "icon">
+                          <div class="fab fa-github">Github</div>
+                        </div>
+                     </a>
+                </div>
+              
+            </foother>
+            </body>
+            
+        </html>
